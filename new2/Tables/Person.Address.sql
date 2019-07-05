@@ -12,6 +12,11 @@ CREATE TABLE [Person].[Address] (
 		[SpatialLocation]     [geography] NULL,
 		[rowguid]             [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]        [datetime] NOT NULL,
+		[asd]                 [int] NULL,
+		[asff]                [int] NULL,
+		[nes]                 [int] NULL,
+		[adasd]               [int] NULL,
+		[adasf]               [int] NULL,
 		CONSTRAINT [PK_Address_AddressID]
 		PRIMARY KEY
 		CLUSTERED

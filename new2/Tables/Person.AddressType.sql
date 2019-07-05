@@ -7,6 +7,11 @@ CREATE TABLE [Person].[AddressType] (
 		[Name]              [dbo].[Name] NOT NULL,
 		[rowguid]           [uniqueidentifier] NOT NULL ROWGUIDCOL,
 		[ModifiedDate]      [datetime] NOT NULL,
+		[asd]               [int] NULL,
+		[fg]                [int] NULL,
+		[asfg]              [int] NULL,
+		[sdfgsdf]           [int] NULL,
+		[sh]                [int] NULL,
 		CONSTRAINT [PK_AddressType_AddressTypeID]
 		PRIMARY KEY
 		CLUSTERED
